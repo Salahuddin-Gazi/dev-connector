@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://onik:1234@devconnector.kvzwq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "jwtSecrectKey": "onik7890",
+  "githubClientId": "fe0f2ddde8a8f166255a",
+  "githubSecret": "c9b49431e9af186a29ea098ad4cb1b24bc4d0595"
+}
