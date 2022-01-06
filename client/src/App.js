@@ -14,7 +14,7 @@ import { loadUser } from "./actions/auth";
 import { getProfiles } from "./actions/profile";
 
 // axios
-axios.defaults.baseURL = process.env.baseURL || "http://localhost:5000";
+axios.defaults.baseURL = process.env.baseURL;
 
 // Setting common token for axios x-auth-token
 if (localStorage.token) {
