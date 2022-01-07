@@ -5,7 +5,6 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "_comment": "Use npm run server or nodemon server for uninterrupted update",
     "start": "node server",
     "server": "nodemon server",
     "client": "npm start --prefix client",
@@ -13,7 +12,7 @@
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "author": "Gazi Salahuddin",
-  "license": "GMC",
+  "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "config": "^3.3.6",
